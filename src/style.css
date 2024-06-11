@@ -560,17 +560,17 @@ hr{
   /*page mywork*/
 
   
-
-  
-  
-  .mywork body {
-   width: 100%;
-      margin: 0;
-      padding: 20px 0 80px;
-      background-color: #284b59;
-      background-image: radial-gradient(circle, rgb(44, 83, 100), rgb(32, 58, 67), rgb(15, 32, 39));
-     
+  .background-portfolio{
+    background-color: var(--color);
+   padding: 7vh 0 7vh 0;
   }
+  .background-portfolio p{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 500px;
+  }
+  
+ 
   
   .mywork h2 {
       color: var(--primary-color);
@@ -579,11 +579,12 @@ hr{
      text-align: center;
       margin-top: 5vh;
   }
+   
 
  
   .mywork .slide-projeckt  {
-      color: var(--secondary-color);
-      text-decoration: none;
+      color: var(--hover-text-color);
+      text-decoration: lab(lightness a b);
       position: relative;
       bottom: 2vh;
       left: 3%;
@@ -591,20 +592,13 @@ hr{
       font-weight: 400;
     
   }
-  
-  .mywork .link-wrapper {
-      padding-top: 50px;
-      font-weight: 300;
-      text-align: center;
-      font-size: 14px;
+
+  .slide-content{
+    width: 100%;
+    height:auto;
   }
   
-  .mywork .link-wrapper a {
-      color: #77b8c2;
-      opacity: 0.5;
-      text-decoration-line: underline;
-  }
-  
+
  
   .mywork .swiper {
       top: 0;
@@ -626,8 +620,9 @@ hr{
   }
   
   .mywork .swiper-slide {
+    box-shadow: none;
     width: 100%;
-    height: auto;
+    height: 100%;
     transition-duration: 0ms;
     transform: translate3d(10px, 10px, -0.0907441px) rotateX(0deg) rotateY(0.0453721deg) scale(1.6);
     z-index: 1;
@@ -637,6 +632,8 @@ hr{
 }
   
 .mywork .swiper-slide img {
+  border-radius: 10px;
+  width: 100%;
   align-content: center;
   display: block;
   height:100%;
@@ -647,15 +644,17 @@ hr{
 .mywork h4 {
     top: 6vh;
     position: relative;
-    font-size: calc(14px + 50% + 5px);
+    font-size: calc(12px + 50% + 5px);
     margin: 10px 20px;
 }
 
 .mywork .swiper-pagination{
   bottom: 1.5vh;
 }
-  
+
+
   .mywork .no-select {
+  
     right: 2vw;
     top: 5vh;
     margin: 0 auto;
@@ -1274,3 +1273,6 @@ hr{
   margin-top: 30vh;
 }
 }
+
+/*animation*/
+
