@@ -888,12 +888,12 @@ hr{
   }
 
     .circle-container {
-      .circle-container {
+      
         position: relative;
         width: 300px;
         height: 300px;
     }
-  }
+  
 
   .circle-item {
       width: 120px;
@@ -1069,23 +1069,41 @@ hr{
 @media (max-width: 480px) {
 
   /*step work*/
+
+  .step-container {
+    margin: 3vh 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.text-block button{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 45vh;
+  margin: 2vw auto;
+}
+
   .circle-container {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 
 .circle-item {
-    width: 60px;
-    height: 25px;
-    font-size: 10px;
+    width: 110px;
+    height: 40px;
+    font-size: 12px;
 }
 
-.circle-item:nth-child(1) { transform: rotate(0deg) translate(70px) rotate(0deg); }
-.circle-item:nth-child(2) { transform: rotate(60deg) translate(70px) rotate(-60deg); }
-.circle-item:nth-child(3) { transform: rotate(120deg) translate(70px) rotate(-120deg); }
-.circle-item:nth-child(4) { transform: rotate(180deg) translate(70px) rotate(-180deg); }
-.circle-item:nth-child(5) { transform: rotate(240deg) translate(70px) rotate(-240deg); }
-.circle-item:nth-child(6) { transform: rotate(300deg) translate(70px) rotate(-300deg); }
+.circle-item:nth-child(1) { transform: rotate(0deg) translate(120px) rotate(0deg); }
+.circle-item:nth-child(2) { transform: rotate(60deg) translate(120px) rotate(-60deg); }
+.circle-item:nth-child(3) { transform: rotate(120deg) translate(120px) rotate(-120deg); }
+.circle-item:nth-child(4) { transform: rotate(180deg) translate(120px) rotate(-180deg); }
+.circle-item:nth-child(5) { transform: rotate(240deg) translate(120px) rotate(-240deg); }
+.circle-item:nth-child(6) { transform: rotate(300deg) translate(120px) rotate(-300deg); }
 
      
    /*media card skills*/
