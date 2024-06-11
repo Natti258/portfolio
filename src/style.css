@@ -129,6 +129,7 @@
   /*skills*/
 
   .skills {
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -275,6 +276,7 @@ margin: 5vh
   }
   
   h2 {
+    text-align: center;
     color: var(--primary-color);
     font-size: 2rem;
     font-weight: 800;
@@ -695,7 +697,7 @@ hr{
 
   .step-container {
    
-    margin: 3vh 5vw;
+    margin: 7vh 5vw;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
@@ -748,7 +750,7 @@ hr{
   width: 120px;
   height: 40px;
   border-radius: 5px;
-  background-color: #007bff;
+  background-color:var(--hover-text-color);
   color: #fff;
   display: flex;
   justify-content: center;
